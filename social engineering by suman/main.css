@@ -1,0 +1,325 @@
+@media only screen and (min-width:768px){
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .har a{
+    text-decoration: none;
+    color: tomato;
+  }
+  .ma{
+    text-decoration: none;
+    color: white;
+  }
+  body{
+    background-color: #e9ebee;
+  }
+  .forg1{
+    display: none;
+  }
+  .into{
+    text-align: center;
+  }
+  #lasty{
+    text-align: center;
+  }
+  #nav{
+    height: 80px;
+    background-color: #4667ac;
+  }
+  .face{
+    cursor: pointer;
+    width: 0px;
+    font-size: 40px;
+    color: white;
+    position: relative; left: 110px; top: 35px;
+    font-family:Helvetica;
+  }
+  
+  #create{
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; left: 300px; bottom: 20px;
+    border-radius:2px;
+    font-size: 11px;
+    font-family:Helvetica;
+    width: 130px;
+    padding: 10px;
+    color: white;
+    background-color:#42b72a;
+  }
+  #create:hover{
+    background:#36a420;
+  }
+  #main{
+    text-align: center;
+    position: relative; top: 60px; left:300px; 
+    padding:30px 0px;
+    width: 650px;
+    background-color:white;
+  }
+  .into{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family:Helvetica;
+  }
+  #email{
+    border-width: 0.5px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 350px;
+    font-family:Helvetica;
+    font-size:12px;
+  }
+  #pass{
+    border-width: 0.5px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 350px;
+    font-family:Helvetica;
+    font-size:12px;
+  }
+  #loginbutton{
+    cursor: pointer;
+    border: none;
+    background-color:#4667ac;
+    color: white;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 350px;
+    border-radius: 3px;
+    font-family:Helvetica;
+    font-size:20px;
+  }
+  #loginbutton:hover{
+    background-color:#365899;
+  }
+  #lasty{
+    padding-top: 25px;
+  }
+  #last:hover{
+    background:#36a420;
+  }
+  #last{
+    font-weight: bold;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color:#42b72a;
+    font-family:Helvetica;
+  }
+  #forget{
+    padding-top:30px;
+  }
+  .har{
+    color: #4667ac;
+    text-align: center;
+    font-size: 12px;
+    font-family:Helvetica;
+    text-decoration: none;
+  }
+  .har:hover{
+    color:#365899;
+    text-decoration: underline;
+  }
+  .for{
+    text-align: center;
+  }
+  #foot{
+    position: relative; top: 180px;
+    padding-top:15px;
+    padding-left:140px;
+    padding-right:180px;
+    padding-bottom:40px;
+    background-color: white;
+  }
+  .ss{
+    padding-bottom:10px;
+    text-decoration:none;
+    font-size:14px;
+    padding-right:20px;
+    font-family:Helvetica;
+  }
+  .ss:hover{
+    text-decoration:underline;
+  }
+  .sssd{
+    text-decoration:none;
+    font-size:12px;
+    padding-right:10px;
+    font-family:Helvetica;   
+  }
+  .sssd:hover{
+    text-decoration:underline;
+  }
+  #or1{
+    position: relative; right: 135px; top: 12px;
+    padding: 0px 200px;
+  }
+  #or2{
+    position: relative; left: 133px; bottom: 8.3px;
+    padding: 0px 200px;
+  }
+  #lasr{
+    display: none;
+  }
+
+
+
+}  
+@media only screen and (max-width:768px){
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(75, 75, 224);
+  }
+  #ba{
+    display: none;
+  }
+  .cre{
+    display: none;
+  }
+  #forg{
+    height: 30px;
+    background-color: red;
+  }
+  .forg1{
+    position: relative; top: 8px;
+  }
+  .into{
+    display: none;
+  }
+  #nav{
+    padding-top:20px;
+    font-family:Helvetica;
+    color: rgb(75, 75, 224);
+    height: 40px;
+    text-align: center;
+    /* background-color: blue; */
+  }
+  #main{
+    padding-top: 30px;
+    text-align: center;
+  }
+  #email{
+    background-color:whitesmoke;
+    border: none;
+    font-family:Helvetica;
+    font-size:12px;
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 3px;
+
+  }
+  #pass{
+    background-color:whitesmoke;
+    border:rgb(138, 135, 135);
+    border-radius: 3px;
+    font-family:Helvetica;
+    font-size:12px;
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+  }
+  #loginbutton{
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-family:Helvetica;
+    font-size:20px;
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    background-color: rgb(75, 75, 224);
+    cursor: pointer;
+  }
+  #lasty{
+    padding: 20px;
+    text-align: center;
+  }
+  #last{
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family:Helvetica;
+    margin: 20px;
+    background-color: #42b72a;
+    text-align: center;
+    padding: 10px 5px;
+  }
+  .har{
+    font-family:Helvetica;
+    text-decoration: none;
+  }
+  .for{
+    text-align: center;
+  }
+  #foot{
+    display: none;
+  }
+  .ss{
+    display: none;
+  }
+  hr{
+    display: none;
+  }
+  .s{
+    font-family: helvetica;
+    font-size: 13px;
+    padding-right: 50px;
+  }
+  .t{
+    font-family: helvetica;
+    font-size: 13px;
+    padding-left: 50px;
+  }
+  .u{
+    font-family: helvetica;
+    font-size: 13px;
+    padding-left: 30px;
+  }
+  .v{
+    font-family: helvetica;
+    font-size: 13px;
+    padding-left: 110px;
+  }
+  .w{
+    font-family: helvetica;
+    font-size: 13px;
+    padding-right: 30px;
+  }
+  .x{
+    font-family: helvetica;
+    font-size: 13px;
+    padding-left: 30px;
+  }
+  .y{
+    font-family: helvetica;
+    font-size: 13px;
+    padding-right: 120px;
+  }
+  #lasr{
+    padding-top: 40px;
+    text-align: center;
+  }
+  .face{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family:Helvetica;
+  }
+  .sssd{
+    display: none;s
+  }
+
+
+
+
